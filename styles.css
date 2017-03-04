@@ -1,11 +1,66 @@
 
+body{
+	font-family: Helvetica;
+	color: white;
+}
 
+article {
+    border: 1px solid white;
+    margin: 15px;
+    padding: 10px;
+    width: 50%;
+}
 
+section {
+	margin: 15px;
+}
 
+header{
+    margin: 10px;
+}
 
+img {
+	width: 60%;
+	height: auto;
+}
 
+h1{
+	text-align: center;
+}
 
+.visited-links{
+	color: pink;
+	font-style: italic;
+	font-weight: bold;
+}
 
+.italics{
+	font-style: italic;
+}
+
+#background-image{
+	background-image: url(camping-background.jpg);
+}
+
+#inspiration-background{
+	background-color: #99A6AB;
+}
+
+#table-styles{
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  table{
+  	display: none;
+  }
+  img{
+  	width: 80%;
+  }
+  article{
+  	width: 75%
+  }
+}
 
 
 /*
